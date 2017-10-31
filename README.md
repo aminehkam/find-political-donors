@@ -45,4 +45,4 @@ Given a US zipcode text, this function returns the first 5 digits. Returns None 
 Given a text, this function checks if it is in mmddyyyy format and returns the date. If the date is malformed or is not in the right format or is not exactly 8 characters, None is returned.
 
 ## Performance on Larger Inputs
-To test my program on a larger input I have used FEC data for individual contribution (http://classic.fec.gov/finance/disclosure/ftpdet.shtml). This input is around 800M after extraction, and my program analyzes this file in about 30 seconds on a Macbook Air (Core i5 and 4G of RAM).
+To test my program on a larger input I have used [FEC data for individual contribution](http://classic.fec.gov/finance/disclosure/ftpdet.shtml). This input is around 800M after extraction, and my program analyzes this file in about 30 seconds on a Macbook Air (Core i5 and 4G of RAM).
